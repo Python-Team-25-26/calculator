@@ -18,8 +18,8 @@ ____
 ## Установка виртуального окружения и запуск
 ### 1. Клонируйте репозиторий
 ```bash
-git clone git@github.com:Python-Team-25-26/bignum-arithmetic.git
-cd bignum-arithmetic
+git clone git@github.com:Python-Team-25-26/calculator.git
+cd calculator
 ```
 ### 2. Создайте виртуальное окружение
 ```bash
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ```
 ### 5. Запустите программу
 ```bash
-python task_2_bignum_arithmetic.py
+python main.py
 ```
 ____
 ### Зависимости проекта
