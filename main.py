@@ -46,6 +46,5 @@ def main():
             calc.logger.error(f"Неожиданная ошибка: {e}")
             print(f"Ошибка: {e}")
 
-
 if __name__ == "__main__":
     main()
