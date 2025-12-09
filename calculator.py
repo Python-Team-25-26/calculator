@@ -53,14 +53,7 @@ class Calculator:
                     result = left * right
                 case '/':
                     if right == 0:
-                        if left == 0:
                             result = float('nan')
-                        elif left > 0:
-                            result = float('inf')
-                        elif left < 0:
-                            result = float('-inf')
-                        else:
-                            result = left / right
                     else:
                         result = left / right
                 case '^':
